@@ -1,4 +1,6 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+//import { TransitionGroup, CSSTransition } from 'react-transition-group';
 
 import NavBar from './components/NavBar';
 import Home from './components/Home';
@@ -13,12 +15,11 @@ function App() {
     <div className="App">
       <Router>
         <NavBar />
-
         <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='/Carillon-History' element={<CarillonHistory />} />
-            <Route path='/Century-Tower' element={<CTInfo />} />
-            <Route path='/References-Links' element={<References />} />
+          <Route path='/' element={<Home />} />
+          <Route path='/Carillon-History' element={<CarillonHistory />} />
+          <Route path='/Century-Tower' element={<CTInfo />} />
+          <Route path='/References-Links' element={<References />} />
         </Routes>
       </Router>
     </div>
