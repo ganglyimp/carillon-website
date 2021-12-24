@@ -1,0 +1,28 @@
+.NavBar {
+  position: absolute;
+  color: white;
+  margin-top: 10px;
+}
+
+.NavBar li {
+  float: left;
+  list-style-type: none;
+}
+
+.NavBar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.NavBar li a:hover {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.active {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}

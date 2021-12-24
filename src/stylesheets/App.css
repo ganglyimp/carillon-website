@@ -1,0 +1,16 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.home-nav {
+  color: white;
+  padding-left: 10px;
+}
+
+.home-title h1 {
+  color: white;
+  font-size: 120px;
+  padding: 10px;
+}
