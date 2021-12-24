@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/carillon-website/static/css/main.2abf1373.css",
+    "main.js": "/carillon-website/static/js/main.698496a1.js",
+    "static/js/787.b234351c.chunk.js": "/carillon-website/static/js/787.b234351c.chunk.js",
+    "static/media/EZ_20130314_UF_Century_Tower_0010.jpg": "/carillon-website/static/media/EZ_20130314_UF_Century_Tower_0010.1a13fe76bf710f874e6d.jpg",
+    "index.html": "/carillon-website/index.html",
+    "main.2abf1373.css.map": "/carillon-website/static/css/main.2abf1373.css.map",
+    "main.698496a1.js.map": "/carillon-website/static/js/main.698496a1.js.map",
+    "787.b234351c.chunk.js.map": "/carillon-website/static/js/787.b234351c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2abf1373.css",
+    "static/js/main.698496a1.js"
+  ]
+}
