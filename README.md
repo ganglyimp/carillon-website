@@ -2,6 +2,8 @@
 
 This project is a static React page meant to display general information about carillon history and Century Tower. 
 
+The current version of the site is available [here](https://ganglyimp.github.io/carillon-website/).
+
 ## Available Scripts
 
 In the project directory, you can run:
