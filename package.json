@@ -1,6 +1,6 @@
 {
-  "homepage": "https://ganglyimp.github.io/carillon-website/",
   "name": "carillon-studio",
+  "homepage": "https://ganglyimp.github.io/carillon-website/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

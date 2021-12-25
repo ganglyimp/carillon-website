@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import { Routes, Route} from 'react-router-dom';
 //import { TransitionGroup, CSSTransition } from 'react-transition-group';
 
 import NavBar from './components/NavBar';
@@ -13,15 +13,13 @@ import './stylesheets/App.css';
 function App() {
   return (
     <div className="App">
-      <Router>
-        <NavBar />
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/Carillon-History' element={<CarillonHistory />} />
-          <Route path='/Century-Tower' element={<CTInfo />} />
-          <Route path='/References-Links' element={<References />} />
-        </Routes>
-      </Router>
+      <NavBar />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/Carillon-History' element={<CarillonHistory />} />
+        <Route path='/Century-Tower' element={<CTInfo />} />
+        <Route path='/References-Links' element={<References />} />
+      </Routes>
     </div>
   );
 }
