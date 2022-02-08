@@ -1,7 +1,21 @@
 .NavBar {
-  position: absolute;
-  color: white;
+  position: fixed;
   margin-top: 10px;
+  font-size: 2vw;
+}
+
+@media (max-width: 600px) {
+  .NavBar {
+    font-size: 2.5vw;
+  }
+}
+
+.transparent {
+  background-color: transparent;
+}
+
+.scrolled {
+  background-color: black;
 }
 
 .NavBar li {
@@ -11,18 +25,30 @@
 
 .NavBar li a {
   display: block;
-  color: white;
   text-align: center;
   padding: 15px;
   text-decoration: none;
+  transition: 0.3s;
+}
+
+.nav-active a {
+  color: #fd6100;
+}
+
+.nav-inactive a {
+  color: white;
 }
 
 .NavBar li a:hover {
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
+  color: #fd6100;
+  transition: color 300ms;
 }
 
-.active {
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
+.nav-underline {
+  width: 100px;
+  height: 5px;
+  background: #fd6100;
+  position: absolute;
+  bottom: 0;
+  transition: left 300ms, width;
 }

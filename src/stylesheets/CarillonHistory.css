@@ -1,8 +1,8 @@
 .CarillonHistory {
-  background-color: black;
-  height: 100vh;
+  background-color: grey;
+  height: 95vh;
   width: 100vw;
-  overflow: hidden;
+  overflow: auto;
   padding-top: 50px;
   color: white;
 }
