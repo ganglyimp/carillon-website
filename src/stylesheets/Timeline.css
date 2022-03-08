@@ -1,0 +1,55 @@
+.Timeline {
+  padding: 15px;
+}
+
+.timeline-events {
+  position: relative;
+  z-index: 2;
+}
+
+.timeline-events li {
+  float: left;
+  list-style-type: none;
+}
+
+.timeline-events li b {
+  font-size: 2vw;
+  padding: 15px;
+}
+
+.timeline-events li b:hover {
+  color: #fd6100;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.timeline-active {
+  color: #fd6100;
+}
+
+.timeline-active .timeline-circle {
+  background-color: white;
+  transition: background-color 300ms;
+}
+
+.timeline-circle {
+  display: block;
+  margin: auto;
+  border-width: 10px;
+  border-radius: 100%;
+  outline: 1px solid white;
+  background-color: black;
+  width: 1.5vw;
+  height: 1.5vw;
+  transition: background-color 300ms;
+}
+
+.timeline-bar {
+  height: 5px;
+  background-color: #fd6100;
+  clear: both;
+  position: relative;
+  z-index: 1;
+  bottom: 1vw;
+  transition: width 300ms;
+}

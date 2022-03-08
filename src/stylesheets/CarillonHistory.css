@@ -1,8 +1,13 @@
 .CarillonHistory {
-  background-color: grey;
+  background-color: black;
   height: 95vh;
   width: 100vw;
   overflow: auto;
   padding-top: 50px;
   color: white;
+}
+
+.history-content {
+  padding: 20px;
+  font-size: 20px;
 }

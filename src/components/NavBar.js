@@ -3,6 +3,12 @@ import { Link } from 'react-router-dom';
 
 import '../stylesheets/NavBar.css';
 
+/*
+Prop: router
+var isActive = this.context.router.route.location.pathname === this.props.to;
+var className = isActive ? 'active' : '';
+*/
+
 function NavBar() {
   const [homeActive, setHomeActive] = useState('nav-active');
   const [historyActive, setHistoryActive] = useState('nav-inactive');
