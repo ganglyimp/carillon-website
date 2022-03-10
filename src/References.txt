@@ -43,5 +43,8 @@ Author: Angelo Roccha
 Date: 1612
 Description: Oldest known picture of a playing carillonneur, from De Campanis Commentarius (1612) by Angelo Roccha (1545-1620)
 
-
+Name: Van Eyck and Lemony Brothers 1975 Drawing
+Used: Carillon History
+Date: 1880
+Source: W. Hofdijk, Lauwerbladen uit Neerlands Gloriekrans I, The Hague, z.j. p. 306.
 

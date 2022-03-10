@@ -1,5 +1,7 @@
 .Timeline {
   padding: 15px;
+  margin: auto;
+  width: fit-content;
 }
 
 .timeline-events {
@@ -9,7 +11,12 @@
 
 .timeline-events li {
   float: left;
+  text-align: center;
   list-style-type: none;
+}
+
+.timeline-active b {
+  font-size: 3vw;
 }
 
 .timeline-events li b {
@@ -38,7 +45,7 @@
   border-width: 10px;
   border-radius: 100%;
   outline: 1px solid white;
-  background-color: black;
+  background-color: #090809;
   width: 1.5vw;
   height: 1.5vw;
   transition: background-color 300ms;
@@ -46,7 +53,7 @@
 
 .timeline-bar {
   height: 5px;
-  background-color: #fd6100;
+  background-image: linear-gradient(to right, rgba(253, 97, 0, 0), rgba(253, 97, 0, 1));
   clear: both;
   position: relative;
   z-index: 1;

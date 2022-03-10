@@ -1,13 +1,82 @@
 .CarillonHistory {
-  background-color: black;
-  height: 95vh;
+  background-color: #090809;
+  height: 100vh;
   width: 100vw;
   overflow: auto;
-  padding-top: 50px;
+  padding-top: 11vh;
   color: white;
+  display: flex;
+  flex-direction: column;
 }
 
 .history-content {
-  padding: 20px;
   font-size: 20px;
+  background-color: #0B6E4F;
+  background-position: center;
+  background-size: cover;
+  flex-grow: 1;
+}
+
+.content-header {
+  padding-top: 0px;
+}
+.content-header h1 {
+  margin: 0px;
+  font-size: 5vw;
+  text-align: center;
+}
+
+.content-body {
+  padding: 20px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  overflow-y: auto;
+  max-height: 50vh;
+}
+
+.shapedividers_com-948 {
+  overflow:hidden;
+  position:relative;
+}
+.shapedividers_com-948::before {
+  content:'';
+  font-family:'shape divider from ShapeDividers.com';
+  position: absolute;
+  bottom: -1px;
+  left: -1px;
+  right: -1px;
+  top: -1px;
+  z-index: 3;
+  pointer-events: none;
+  background-repeat: no-repeat; 
+  background-size: 100% 74px;
+  background-position: 50% 0%;    
+  background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.278 3.527" preserveAspectRatio="none"><path d="M0 1.064v.125a82.946 82.946 0 0035.278-.007v-.125A82.783 82.783 0 010 1.064M0 .45V.7A83.105 83.105 0 0035.278.693v-.25A82.777 82.777 0 010 .45M33.252 0a82.855 82.855 0 01-31.26 0H0v.092A83.44 83.44 0 0035.278.085V0zm-10.8 0h8.84A84.249 84.249 0 013.952 0h8.839zM0 1.557v.075a82.878 82.878 0 0035.278-.007V1.55A82.771 82.771 0 010 1.557" fill="%23090809"/></svg>'); 
+}
+  
+@media (min-width:768px) {
+  .shapedividers_com-948::before {
+    background-size: 100% 74px;
+    background-position: 50% 0%;   
+  }  
+}
+   
+@media (min-width:1025px) {
+  .shapedividers_com-948::before { 
+    bottom: -0.1vw;
+    left: -0.1vw;
+    right: -0.1vw;
+    top: -0.1vw; 
+    background-size: 100% 74px;
+    background-position: 50% 0%;  
+    background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.278 3.527" preserveAspectRatio="none"><path d="M0 1.064v.125a82.946 82.946 0 0035.278-.007v-.125A82.783 82.783 0 010 1.064M0 .45V.7A83.105 83.105 0 0035.278.693v-.25A82.777 82.777 0 010 .45M33.252 0a82.855 82.855 0 01-31.26 0H0v.092A83.44 83.44 0 0035.278.085V0zm-10.8 0h8.84A84.249 84.249 0 013.952 0h8.839zM0 1.557v.075a82.878 82.878 0 0035.278-.007V1.55A82.771 82.771 0 010 1.557" fill="%23090809"/></svg>'); 
+  }
+}
+
+@media (min-width:2100px) {
+  .shapedividers_com-948::before {
+  background-size: 100% calc(2vw + 74px);
+  }
 }

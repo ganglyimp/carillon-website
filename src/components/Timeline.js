@@ -16,7 +16,7 @@ function Timeline(props) {
   const [timelineWidth, setTimelineWidth] = useState(0);
 
   const timelineHandleClick = (e, time) => {
-    setTimelineWidth(e.target.getBoundingClientRect().x + (e.target.offsetWidth / 2) - 15);
+    setTimelineWidth(e.target.offsetLeft + (e.target.offsetWidth / 2));
     props.setTime(time);
   }
 
