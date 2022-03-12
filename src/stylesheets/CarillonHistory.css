@@ -43,6 +43,12 @@
   width: 40vw;
   height: 24vw;
 }
+.content-body a {
+  color: #0B6E4F;
+}
+.content-body a:visited {
+  color: #8FD5A6;
+}
 
 .shapedividers_com-948 {
   overflow:hidden;
