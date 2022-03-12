@@ -24,6 +24,8 @@
   margin: 0px;
   font-size: 5vw;
   text-align: center;
+  color: white;
+  text-shadow: -2px 0px 0px #000, 2px 0px 0px #000, 0px 2px 0px #000, 0px -2px 0px #000;
 }
 
 .content-body {
@@ -31,9 +33,15 @@
   margin-left: 5vw;
   margin-right: 5vw;
   border-radius: 10px;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(9, 8, 9, 0.8);
   overflow-y: auto;
   max-height: 50vh;
+}
+.content-body iframe {
+  float: left;
+  padding: 10px;
+  width: 40vw;
+  height: 24vw;
 }
 
 .shapedividers_com-948 {

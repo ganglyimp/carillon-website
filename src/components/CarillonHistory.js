@@ -7,12 +7,20 @@ import vanEyckHemony from '../images/Jacob_van_Eyck_met_de_Hemony_broers.jpg';
 
 function CarillonHistory() {
   const [currTime, setCurrTime] = useState(0);
-  const dateList = ['1400', '1482', '1530', '1644', '1750', '1892', '1904', '1914', '1923', '1936', '1950', '1970'];
-  const backgroundImg = ['https://upload.wikimedia.org/wikipedia/commons/2/26/Notre-Dame_Paris_ago_2016_f23.jpg',
-                        'https://upload.wikimedia.org/wikipedia/commons/b/b6/Antwerp_Cathedral_SAAM-1962.13.8_1.jpg',
-                        'https://upload.wikimedia.org/wikipedia/commons/c/c2/Bruges_Belgium_Carillon-01.jpg',
-                        vanEyckHemony,
-                        ''];
+  const dateList = ['1400', '1482', '1530', '1644', '1750', '1892', '1904', '1914', '1922', '1923', '1936', '1950', '1970'];
+  const backgroundImg = ['https://upload.wikimedia.org/wikipedia/commons/5/5f/Die_Gartenlaube_%281873%29_b_101.jpg', //1400
+                        'https://upload.wikimedia.org/wikipedia/commons/b/b6/Antwerp_Cathedral_SAAM-1962.13.8_1.jpg', //1482
+                        'https://upload.wikimedia.org/wikipedia/commons/c/c2/Bruges_Belgium_Carillon-01.jpg', //1530
+                        vanEyckHemony, //1644
+                        'https://upload.wikimedia.org/wikipedia/commons/2/25/Die_Gartenlaube_%281869%29_b_413.jpg', //1750
+                        'https://upload.wikimedia.org/wikipedia/commons/2/2f/St_Rombouts_Cathedral_from_the_Church_of_Our_Lady_across_the_Dijle_01.JPG', //1892
+                        'https://upload.wikimedia.org/wikipedia/commons/b/b1/Taylor%27s_Bell_Foundry%2C_Freehold_Street%2C_Loughborough_-_geograph.org.uk_-_2736850.jpg', //1904
+                        '', //1914
+                        'https://upload.wikimedia.org/wikipedia/commons/5/57/Koninklijke_Beiaardschool_Jef_Denyn_Mechelen_20-3-2018.jpg', //1922
+                        '', //1923 
+                        'https://www.gcna.org/resources/Pictures/congress-1936-Ottawa.jpg', //1936
+                        'https://upload.wikimedia.org/wikipedia/commons/c/c3/KUCampanileDec2007.jpg', //1950
+                        '']; //1970 
 
   return (
     <div className='CarillonHistory'>
@@ -57,6 +65,13 @@ function CarillonHistory() {
               <h1>1530</h1>
             </div>
             <div className='content-body'>
+              <iframe
+                src='https://www.youtube-nocookie.com/embed/n9-lcnZgOLM' 
+                title='YouTube video player' 
+                frameborder='0' 
+                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' 
+                allowfullscreen>
+              </iframe>
               <p>
                 Bell towers became increasingly popular in the Southern Netherlands and Flanders. Towns were competitive
                 with each other, trying to install the most elaborate clock chimes in their clock towers. Revolving
@@ -136,14 +151,15 @@ function CarillonHistory() {
             </div>
             <div className='content-body'>
               <p>
-                Instead of carillons, British bell towers were dominated by swinging bells and their unique style of
-                change-ringing. Arthur Simpson was an English change ringer and clergyman. The poor condition of English
-                bells inspired him to publish a series of articles on bell tuning in the 1890s. These articles caught the
-                attention of John William Taylor, who was already attempting to replicate the Hemony brothers' lost tuning
-                techniques. The two men collaborated to found the first tuned bells (with all five partials in tune) in
-                over a century. They created what can be considered the first "modern" carillon. This carillon was a 40-bell
-                instrument tuned in equal temperament. The instrument was installed at their works. Their rediscovery of
-                lost bell tuning techniques would soon spark a revival in carillon building.
+                Instead of carillons, British bell towers were dominated by swinging bells and their unique style 
+                of <a href='https://youtu.be/khc-iA0FZEY'>change-ringing</a>. Arthur Simpson was an English change ringer 
+                and clergyman. The poor condition of English bells inspired him to publish a series of articles on bell 
+                tuning in the 1890s. These articles caught the attention of <a href='http://taylorbells.co.uk/history/'>
+                John William Taylor</a>, who was already attempting to replicate the Hemony brothers' lost tuning techniques. 
+                The two men collaborated to found the first tuned bells (with all five partials in tune) in over a century. 
+                They created what can be considered the first "modern" carillon. This carillon was a 40-bell instrument tuned 
+                in equal temperament. The instrument was installed at their works. Their rediscovery of lost bell tuning 
+                techniques would soon spark a revival in carillon building.
               </p>
             </div>
           </div>
@@ -154,14 +170,23 @@ function CarillonHistory() {
               <h1>1914</h1>
             </div>
             <div className='content-body'>
+              <img 
+                style={{float: 'left', padding: '10px', height: '46vh'}}
+                src='https://upload.wikimedia.org/wikipedia/commons/8/8e/William_Gorham_Rice-1910.jpg'
+                alt='William Gorham Rice' 
+              />
               <p>
                 William Gorham Rice, an American politician and carillon enthusiast, published the 
-                book <i>Carillons of Belgium and Holland</i>. This book was inspired by his trips to Belgium and 
+                book <a href='https://www.google.com/books/edition/Carillons_of_Belgium_and_Holland/tK7rAAAAIAAJ?hl=en&gbpv=1&pg=PA3&printsec=frontcover'>
+                        <i>Carillons of Belgium and Holland</i>
+                     </a>
+                . This book was inspired by his trips to Belgium and 
                 conversations he had with Jef Denyn. The book romanticized carillons and the region. Rice's book 
                 resonated with the American public and was highly successful. Afterwards, Rice became an authority 
                 on carillons in North America. He would go on to write two more books on the subject, give 35 
                 lectures in assorted cities, and speak on radio programs.
               </p>
+              
             </div>
           </div>
         }
@@ -172,9 +197,10 @@ function CarillonHistory() {
             </div>
             <div className='content-body'>
               <p>
-                William Gorham Rice was able to convince Herbert Hoover and John D. Rockefeller Jr. to provide financial
-                support to establish a carillon school in Mechelen. Jef Denyn was appointed as its first director. The 
-                Royal Carillon Carillon School "Jef Denyn" is the first and largest carillon school in the world.
+                William Gorham Rice was able to convince Herbert Hoover and John D. Rockefeller Jr. to provide financial 
+                support to establish a carillon school in Mechelen. Jef Denyn was appointed as its first director. 
+                The <a href='https://beiaardschool.mechelen.be/about-us'>Royal Carillon Carillon School "Jef Denyn"</a> 
+                is the first and largest carillon school in the world.
               </p>
             </div>
           </div>
@@ -212,6 +238,13 @@ function CarillonHistory() {
               <h1>1950s — 1960s</h1>
             </div>
             <div className='content-body'>
+              <iframe
+                src='https://www.youtube-nocookie.com/embed/f_FsQ1re9DM' 
+                title='YouTube video player' 
+                frameborder='0' 
+                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' 
+                allowfullscreen>
+              </iframe>
               <p>
                 During this period, a distinct North American style of carillon music emerged from the University of Kansas.
                 Ronald Barnes, the university carillonneur, began an extensive campaign to bring more talented composers to 
