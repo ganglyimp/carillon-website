@@ -9,10 +9,22 @@
   overflow: hidden;
   color: white;
   padding-top: 50px;
+  transition: background-position 1s;
 }
 
 .home-title h1 {
   color: white;
   font-size: 12vmax;
   padding: 10px;
+}
+
+@media (max-width: 600px) {
+  .Home {
+    background-position: right;
+    transition: background-position 1s;
+  }
+
+  .home-title h1 {
+    font-size: 13vmax;
+  }
 }

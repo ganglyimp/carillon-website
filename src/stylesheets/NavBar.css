@@ -1,21 +1,7 @@
 .NavBar {
-  position: fixed;
+  position: absolute;
   margin-top: 10px;
-  font-size: 2vw;
-}
-
-@media (max-width: 600px) {
-  .NavBar {
-    font-size: 2.5vw;
-  }
-}
-
-.transparent {
-  background-color: transparent;
-}
-
-.scrolled {
-  background-color: black;
+  font-size: 2.5vw;
 }
 
 .NavBar li {
@@ -44,6 +30,10 @@
   transition: color 300ms;
 }
 
+.NavBar-mobile {
+  display: none;
+}
+
 .nav-underline {
   width: 100px;
   height: 5px;
@@ -51,4 +41,35 @@
   position: absolute;
   bottom: 0;
   transition: left 300ms, width;
+}
+
+@media (max-width: 600px) {
+  .NavBar {
+    margin-top: 0;
+    font-size: 4.5vw;
+  }
+
+  .NavBar li {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .NavBar li a {
+    padding-bottom: 5px;
+  }
+
+  .nav-active a {
+    border-bottom: 5px solid #fd6100;
+  }
+
+  .NavBar-desktop {
+    display: none;
+  }
+
+  .NavBar-mobile {
+    display: block;
+    width: 100vw;
+    height: fit-content;
+    text-align: center;
+  }
 }

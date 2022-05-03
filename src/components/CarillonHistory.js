@@ -4,6 +4,13 @@ import Timeline from './Timeline';
 import '../stylesheets/CarillonHistory.css';
 import 'react-vertical-timeline-component/style.min.css';
 import vanEyckHemony from '../images/Jacob_van_Eyck_met_de_Hemony_broers.jpg';
+import americanCarillon from '../images/americanCarillon.jpeg';
+import carillonField from '../images/carillonField.jpeg';
+
+/* TO DO
+ * 1. Make timeline dynamic to mobile devices.
+ * 2. Timeline line adjusts to resizing.
+ */
 
 function CarillonHistory() {
   const [currTime, setCurrTime] = useState(0);
@@ -17,10 +24,10 @@ function CarillonHistory() {
                         'https://upload.wikimedia.org/wikipedia/commons/b/b1/Taylor%27s_Bell_Foundry%2C_Freehold_Street%2C_Loughborough_-_geograph.org.uk_-_2736850.jpg', //1904
                         '', //1914
                         'https://upload.wikimedia.org/wikipedia/commons/5/57/Koninklijke_Beiaardschool_Jef_Denyn_Mechelen_20-3-2018.jpg', //1922
-                        '', //1923 
+                        americanCarillon, //1923 
                         'https://www.gcna.org/resources/Pictures/congress-1936-Ottawa.jpg', //1936
                         'https://upload.wikimedia.org/wikipedia/commons/c/c3/KUCampanileDec2007.jpg', //1950
-                        '']; //1970 
+                        carillonField]; //1970 
 
   return (
     <div className='CarillonHistory'>
@@ -199,8 +206,8 @@ function CarillonHistory() {
               <p>
                 William Gorham Rice was able to convince Herbert Hoover and John D. Rockefeller Jr. to provide financial 
                 support to establish a carillon school in Mechelen. Jef Denyn was appointed as its first director. 
-                The <a href='https://beiaardschool.mechelen.be/about-us'>Royal Carillon Carillon School "Jef Denyn"</a> 
-                is the first and largest carillon school in the world.
+                The <a href='https://beiaardschool.mechelen.be/about-us'>Royal Carillon Carillon School "Jef Denyn"</a> is
+                the first and largest carillon school in the world.
               </p>
             </div>
           </div>

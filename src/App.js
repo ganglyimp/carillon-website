@@ -1,6 +1,5 @@
 import React from 'react';
 import { Routes, Route} from 'react-router-dom';
-//import { TransitionGroup, CSSTransition } from 'react-transition-group';
 
 import NavBar from './components/NavBar';
 import Home from './components/Home';
@@ -17,7 +16,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/Carillon-History' element={<CarillonHistory />} />
-        <Route path='/Century-Tower' element={<CTInfo />} />
+        <Route path='/Virtual-Tour' element={<CTInfo />} />
         <Route path='/References-Links' element={<References />} />
       </Routes>
     </div>

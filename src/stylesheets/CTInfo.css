@@ -1,7 +1,67 @@
 .CTInfo {
-  background-color: black;
+  background-color: #090809;
+  color: white;
   height: 100vh;
   width: 100vw;
-  overflow: hidden;
+  overflow: scroll;
   padding-top: 50px;
+}
+
+.CT-streetview iframe {
+  border: 0;
+  width: 100vw;
+  height: 60vh;
+}
+
+.CT-buttons {
+  align-items: center;
+  padding: 10px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-bottom: 2px solid #fd6100;
+}
+
+.CT-buttons .active-butt {
+  background-color: #fd6100;
+  color: #090809;
+  border-style: none;
+  transition: color 0.3s;
+}
+
+.CT-buttons .active-butt:hover {
+  color: #090809;
+}
+
+.CT-buttons button {
+  margin-right: 2vw;
+  font-size: 4vw;
+  background-color: transparent;
+  color: white;
+  border-style: none;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  cursor: pointer;
+}
+
+.CT-buttons button:hover {
+  color: #fd6100;
+  transition: color 0.3s;
+}
+
+.CT-content {
+  height: 15vh;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 0;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .CT-streetview iframe {
+    height: 45vh;
+  }
+
+  .CT-buttons button {
+    font-size: 3.5vw;
+  }
 }

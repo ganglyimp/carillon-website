@@ -3,46 +3,22 @@ import { Link } from 'react-router-dom';
 
 import '../stylesheets/NavBar.css';
 
-/*
-Prop: router
-var isActive = this.context.router.route.location.pathname === this.props.to;
-var className = isActive ? 'active' : '';
-*/
-
 function NavBar() {
-  const [homeActive, setHomeActive] = useState('nav-active');
-  const [historyActive, setHistoryActive] = useState('nav-inactive');
-  const [CTActive, setCTActive] = useState('nav-inactive');
-  const [referenceActive, setReferenceActive] = useState('nav-inactive');
-
   const [underlineLeft, setUnderlineLeft] = useState(0);
   const [underlineWidth, setUnderlineWidth] = useState(100);
   const [underlineActivePos, setUnderlineActivePos] = useState(0);
   const [underlineActiveWidth, setUnderlineActiveWidth] = useState(100);
 
-  const [navScroll, setNavScroll] = useState('transparent');
+  const checkActive = (path) => {
+    if (window.location.href.endsWith(path))
+      return 'nav-active';
 
-  const toggleActive = (e, page, setPage) => {
-    if(page !== 'nav-active') {
-      setHomeActive('nav-inactive');
-      setHistoryActive('nav-inactive');
-      setCTActive('nav-inactive');
-      setReferenceActive('nav-inactive');
-
-      setPage('nav-active');
-    }
-
-    setUnderlineActivePos(e.target.getBoundingClientRect().x);
-    setUnderlineActiveWidth(e.target.offsetWidth);
+    return 'nav-inactive';
   }
 
-  const handleScroll = () => {
-    if(window.scrollY > 50)
-      setNavScroll('solid');
-    else
-      setNavScroll('transparent');
-    
-    console.log(window.scrollY);
+  const toggleActive = (e) => {
+    setUnderlineActivePos(e.target.getBoundingClientRect().x);
+    setUnderlineActiveWidth(e.target.offsetWidth);
   }
 
   const handleMouseEnter = (e) => {
@@ -55,28 +31,40 @@ function NavBar() {
     setUnderlineWidth(underlineActiveWidth);
   }
 
-  useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      document.removeEventListener('scroll', handleScroll);
-    }
-  })
+  
 
   return (
-    <div className={`NavBar ${navScroll}`}>
-      <li className={homeActive} onMouseEnter={(e) => {handleMouseEnter(e)}} onMouseLeave={() => {handleMouseExit()}}>
-        <Link to='/' onClick={(e) => {toggleActive(e, homeActive, setHomeActive)}}><b>Home</b></Link>
-      </li>
-      <li className={historyActive} onMouseEnter={(e) => {handleMouseEnter(e)}} onMouseLeave={() => {handleMouseExit()}}>
-        <Link to='/Carillon-History' onClick={(e) => {toggleActive(e, historyActive, setHistoryActive)}}><b>Carillon History</b></Link>
-      </li>
-      <li className={CTActive} onMouseEnter={(e) => {handleMouseEnter(e)}} onMouseLeave={() => {handleMouseExit()}}>
-        <Link to='/Century-Tower' onClick={(e) => {toggleActive(e, CTActive, setCTActive)}}><b>Century Tower</b></Link>
-      </li>
-      <li className={referenceActive} onMouseEnter={(e) => {handleMouseEnter(e)}} onMouseLeave={() => {handleMouseExit()}}>
-        <Link to='/References-Links' onClick={(e) => {toggleActive(e, referenceActive, setReferenceActive)}}><b>References & Links</b></Link>
-      </li>
-      <div className='nav-underline' style={{left: underlineLeft, width: underlineWidth}} />
+    <div className='NavBar'>
+      <div className='NavBar-desktop'>
+        <li className={checkActive('/')} onMouseEnter={(e) => {handleMouseEnter(e)}} onMouseLeave={() => {handleMouseExit()}}>
+          <Link to='/' onClick={(e) => {toggleActive(e)}}><b>Home</b></Link>
+        </li>
+        <li className={checkActive('/Carillon-History')} onMouseEnter={(e) => {handleMouseEnter(e)}} onMouseLeave={() => {handleMouseExit()}}>
+          <Link to='/Carillon-History' onClick={(e) => {toggleActive(e)}}><b>Carillon History</b></Link>
+        </li>
+        <li className={checkActive('Virtual-Tour')} onMouseEnter={(e) => {handleMouseEnter(e)}} onMouseLeave={() => {handleMouseExit()}}>
+          <Link to='/Virtual-Tour' onClick={(e) => {toggleActive(e)}}><b>Virtual Tour</b></Link>
+        </li>
+        <li className={checkActive('References-Links')} onMouseEnter={(e) => {handleMouseEnter(e)}} onMouseLeave={() => {handleMouseExit()}}>
+          <Link to='/References-Links' onClick={(e) => {toggleActive(e)}}><b>References & Links</b></Link>
+        </li>
+        <div className='nav-underline' style={{left: underlineLeft, width: underlineWidth}} />
+      </div>
+
+      <div className='NavBar-mobile'>
+        <li className={checkActive('/')} onMouseEnter={(e) => {handleMouseEnter(e)}} onMouseLeave={() => {handleMouseExit()}}>
+          <Link to='/' onClick={(e) => {toggleActive(e)}}><b>Home</b></Link>
+        </li>
+        <li className={checkActive('/Carillon-History')} onMouseEnter={(e) => {handleMouseEnter(e)}} onMouseLeave={() => {handleMouseExit()}}>
+          <Link to='/Carillon-History' onClick={(e) => {toggleActive(e)}}><b>History</b></Link>
+        </li>
+        <li className={checkActive('Virtual-Tour')} onMouseEnter={(e) => {handleMouseEnter(e)}} onMouseLeave={() => {handleMouseExit()}}>
+          <Link to='/Virtual-Tour' onClick={(e) => {toggleActive(e)}}><b>Tour</b></Link>
+        </li>
+        <li className={checkActive('References-Links')} onMouseEnter={(e) => {handleMouseEnter(e)}} onMouseLeave={() => {handleMouseExit()}}>
+          <Link to='/References-Links' onClick={(e) => {toggleActive(e)}}><b>References</b></Link>
+        </li>
+      </div>
     </div>
   );
 }
