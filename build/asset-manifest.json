@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/carillon-website/static/css/main.6aa5fda8.css",
-    "main.js": "/carillon-website/static/js/main.832e60c1.js",
+    "main.css": "/carillon-website/static/css/main.7abf359e.css",
+    "main.js": "/carillon-website/static/js/main.517530c6.js",
     "static/js/787.b234351c.chunk.js": "/carillon-website/static/js/787.b234351c.chunk.js",
     "static/media/EZ_20130314_UF_Century_Tower_0010.jpg": "/carillon-website/static/media/EZ_20130314_UF_Century_Tower_0010.1a13fe76bf710f874e6d.jpg",
     "static/media/2016-06-16_Century_Tower_Rainbow_Colors-0300.jpg": "/carillon-website/static/media/2016-06-16_Century_Tower_Rainbow_Colors-0300.76b414532dbfc9de5d35.jpg",
@@ -9,12 +9,12 @@
     "static/media/Jacob_van_Eyck_met_de_Hemony_broers.jpg": "/carillon-website/static/media/Jacob_van_Eyck_met_de_Hemony_broers.273a459a16da1e8ef756.jpg",
     "static/media/carillonField.jpeg": "/carillon-website/static/media/carillonField.e5891d2a978271de08f5.jpeg",
     "index.html": "/carillon-website/index.html",
-    "main.6aa5fda8.css.map": "/carillon-website/static/css/main.6aa5fda8.css.map",
-    "main.832e60c1.js.map": "/carillon-website/static/js/main.832e60c1.js.map",
+    "main.7abf359e.css.map": "/carillon-website/static/css/main.7abf359e.css.map",
+    "main.517530c6.js.map": "/carillon-website/static/js/main.517530c6.js.map",
     "787.b234351c.chunk.js.map": "/carillon-website/static/js/787.b234351c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6aa5fda8.css",
-    "static/js/main.832e60c1.js"
+    "static/css/main.7abf359e.css",
+    "static/js/main.517530c6.js"
   ]
 }

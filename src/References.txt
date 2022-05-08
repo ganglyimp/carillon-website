@@ -6,29 +6,8 @@ Author: University of Florida / Eric Zamora
 Date: 14 Mar 2013
 Description: D-2834. National Academy Members Reception. UF Monuments and Buildings
 
-Name: 2016-06-16_Century_Tower_Rainbow_Colors-0182.jpg
-Used: N/A
-Source: https://ufphotography.photoshelter.com/search/result/I0000N6w5TxrpfxU?terms=century&
-Author: University of Florida / Bernard Brzezinski
-Date: 16 Jun 2016
-Description: An evening view of UF's Century Tower and University Auditorium.
-
-Name: 2016-06-16_Century_Tower_Rainbow_Colors-0300.jpg
-Used: N/A
-Source: https://ufphotography.photoshelter.com/search/result/I0000YhG2ErAfWww?terms=century&
-Author: University of Florida / Bernard Brzezinski
-Date: 16 Jun 2016
-Description: UF's Century Tower lit in rainbow colors to honor those lost in the Pulse Nightclub shooting in Orlando, Florida. 
-
-Name: 2016-11-13_Supermoon_Century_Tower.jpg
-Used: N/A
-Source: https://ufphotography.photoshelter.com/search/result/I0000ugxnVZCBWrg?terms=century&
-Author: University of Florida / Lyon Duong
-Date: 13 Nov 2016
-Description: Supermoon, Century Tower
-
 Name: Century_Tower_L98A8874.jpg
-Used: N/A
+Used: References & Links
 Source: https://ufphotography.photoshelter.com/search/result/I0000L_3MXQQsdtE?terms=century&
 Author: University of Florida / Isabella Marley
 Date: 31 Oct 2019
@@ -36,15 +15,91 @@ Description: Century Tower at night
 
 ---
 CARILLON HISTORY
-Name: Earliest_Carillonneus_Picture.png
-Used: Carillon History
-Source: https://en.wikipedia.org/wiki/File:Earliest_Carillonneur_Picture.png
-Author: Angelo Roccha
-Date: 1612
-Description: Oldest known picture of a playing carillonneur, from De Campanis Commentarius (1612) by Angelo Roccha (1545-1620)
-
 Name: Van Eyck and Lemony Brothers 1975 Drawing
 Used: Carillon History
-Date: 1880
 Source: W. Hofdijk, Lauwerbladen uit Neerlands Gloriekrans I, The Hague, z.j. p. 306.
+Date: 1880
 
+Name: Die Gartenlaube (1873)
+Used: Carillon History
+Source: https://commons.wikimedia.org/wiki/File:Die_Gartenlaube_(1873)_b_101.jpg
+Author: Various
+Date: 1873
+Description: Bild aus Seite 101 in "Die Gartenlaube". Image from page 101 of journal Die Gartenlaube, 1873.  
+
+Name: Antwerp Cathedral 
+Used: Carillon History
+Source: https://commons.wikimedia.org/wiki/File:Antwerp_Cathedral_SAAM-1962.13.8_1.jpg
+Author: Cass Gillbert
+Date: 1899
+Description: N/A
+
+Name: Bruges Belgium Carillon-01.jpg
+Used: Carillon History
+Source: https://commons.wikimedia.org/wiki/File:Bruges_Belgium_Carillon-01.jpg
+Author: CEphoto, Uwe Aranas
+Date: 19 July 2014
+Description: Bruges, Belgium: Drum of the carillon in the belfry of Brugge
+
+Name: Die Gartenlaube, 1869
+Used: Carillon History
+Source: https://commons.wikimedia.org/wiki/File:Die_Gartenlaube_%281869%29_b_413.jpg
+Author: Various
+Date: 1869
+Description: Bild aus Seite 413 in "Die Gartenlaube". Image from page 413 of journal Die Gartenlaube, 1869. 
+
+Name: St Rombouts Cathedral from the Church of Our Lady across the Dijle 01.JPG
+Used: Carillon History
+Source: https://commons.wikimedia.org/wiki/File:St_Rombouts_Cathedral_from_the_Church_of_Our_Lady_across_the_Dijle_01.JPG
+Author: Ad Meskens
+Date: 8 September 2013
+Description: St-Rumbold's Cathedral in Mechelen (Flanders, Belgium) as seen from the tower of the Onze-Lieve-Vrouw-over-de-Dijlekerk. To the right Parochiekerk Sint-Jan-Baptist-en-Evangelist. 
+
+Name: Taylor's Bell Foundry, Freehold Street, Loughborough - geograph.org.uk - 2736850.jpg
+Used: Carillon History
+Source: https://commons.wikimedia.org/wiki/File:Taylor%27s_Bell_Foundry%2C_Freehold_Street%2C_Loughborough_-_geograph.org.uk_-_2736850.jpg
+Author: Chris Allen
+Date: 18 December 2011
+Description: Taylor's Bell Foundry, Freehold Street, Loughborough
+
+Name: William Gotham Rice-1910.jpg
+Used: Carillon History
+Source: https://commons.wikimedia.org/wiki/File:William_Gorham_Rice-1910.jpg
+Author: Bain News Service
+Date: circa 1910
+Description: W.G. Rice
+
+Name: Koninklijke Beiaardschool Jef Denyn Mechelen 20-3-2018.jpg
+Used: Carillon History
+Source: https://commons.wikimedia.org/wiki/File:Koninklijke_Beiaardschool_Jef_Denyn_Mechelen_20-3-2018.jpg
+Author: Paul Hermans
+Date: 20 March 2018
+Description: Koninklijke Beiaardschool Jef Denyn Mechelen 20-3-2018
+
+Name: 1936, Sept. 1-3 (GCNA founded); House of Parliament, Ottawa, Ontario, Canada
+Used: Carillon History
+Source: https://www.gcna.org/congresses
+Author: GCNA
+Date: 1 September 1936
+Description: N/A
+
+Name: KUCampanileDec2007.jpg
+Used: Carillon History
+Source: https://commons.wikimedia.org/wiki/File:KUCampanileDec2007.jpg
+Author: InaMaka
+Date: December 2007
+Description: Memorial Campanile, the University of Kansas, Lawrence, Kansas
+
+Name: American Carillon
+Used: Carillon History
+Source: Permission of Author
+Author: Laura Ellis
+Date: N/A
+Description: N/A
+
+Name: Carillon in a Field
+Used: Carillon History
+Source: Permission of Author
+Author: Laura Ellis
+Date: N/A
+Description: N/A

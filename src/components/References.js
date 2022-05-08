@@ -1,7 +1,7 @@
 import '../stylesheets/References.css';
 
 import CTSunset from '../images/EZ_20130314_UF_Century_Tower_0010.jpg';
-import CTNight from '../images/2016-06-16_Century_Tower_Rainbow_Colors-0300.jpg';
+import CTBrick from '../images/Century_Tower_L9A8874.jpg';
 import vanEyckHemony from '../images/Jacob_van_Eyck_met_de_Hemony_broers.jpg';
 
 
@@ -22,9 +22,9 @@ function References() {
                       imgAlt: 'Century Tower at Sunset'
                     },
                     {
-                      imgSrc: CTNight,
-                      imgLink: 'https://ufphotography.photoshelter.com/search/result/I0000YhG2ErAfWww?terms=century&',
-                      imgAlt: 'Century Tower Rainbow Lights'
+                      imgSrc: CTBrick,
+                      imgLink: 'https://ufphotography.photoshelter.com/search/result/I0000L_3MXQQsdtE?terms=century&',
+                      imgAlt: 'Century Tower from Marston'
                     },
                     {
                       imgSrc: 'https://upload.wikimedia.org/wikipedia/commons/b/b6/Antwerp_Cathedral_SAAM-1962.13.8_1.jpg',
