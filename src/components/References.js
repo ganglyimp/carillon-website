@@ -4,7 +4,6 @@ import CTSunset from '../images/EZ_20130314_UF_Century_Tower_0010.jpg';
 import CTBrick from '../images/Century_Tower_L9A8874.jpg';
 import vanEyckHemony from '../images/Jacob_van_Eyck_met_de_Hemony_broers.jpg';
 
-
 function References() {
   const imgInfo = [ {
                       imgSrc: vanEyckHemony,
@@ -77,7 +76,7 @@ function References() {
     <div className='References'>
       <div className='ref-text-citations'>
         <div className='ref-text-col'>
-          <h3>Carillon History Resources</h3>
+          <h1>Carillon History Resources</h1>
           <p>
             Gouwens, John. <i>Playing the Carillon: An Introductory Method</i>.<br />
             4th edition. GCNA Music Publications, 2017. 
@@ -97,7 +96,7 @@ function References() {
         </div>
 
         <div className='ref-text-col'>
-          <h3>Century Tower Resources</h3>
+          <h1>Century Tower Resources</h1>
           <p>
             <a href='https://arts.ufl.edu/sites/carillon-studio/welcome/'>UFL Carillon Studio</a>
           </p>
@@ -105,7 +104,7 @@ function References() {
       </div>
 
       <div className='ref-image-citations'>
-        <h3>Image Sources</h3>
+        <h1>Image Sources</h1>
 
         <div className='image-grid'>
           { imgInfo && imgInfo.map((item, index) => {

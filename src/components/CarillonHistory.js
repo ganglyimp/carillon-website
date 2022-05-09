@@ -2,15 +2,9 @@ import { React, useState} from 'react';
 import Timeline from './Timeline';
 
 import '../stylesheets/CarillonHistory.css';
-import 'react-vertical-timeline-component/style.min.css';
 import vanEyckHemony from '../images/Jacob_van_Eyck_met_de_Hemony_broers.jpg';
 import americanCarillon from '../images/americanCarillon.jpeg';
 import carillonField from '../images/carillonField.jpeg';
-
-/* TO DO
- * 1. Make timeline dynamic to mobile devices.
- * 2. Timeline line adjusts to resizing.
- */
 
 function CarillonHistory() {
   const [currTime, setCurrTime] = useState(0);

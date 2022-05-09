@@ -14,7 +14,6 @@
 
 .ref-text-citations {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
 }
 .ref-text-citations a {
@@ -29,6 +28,8 @@
 
 .ref-image-citations {
   overflow-y: scroll;
+  margin: 10px;
+  margin-top: 0;
   margin-bottom: 100px;
 }
 .ref-image-citations a {
@@ -48,14 +49,28 @@
   margin-bottom: 5px;
   margin-right: 10px;
   padding: 3px;
+  transition: padding 0.3s;
 }
 .image-card::after {
   content: "";
   clear: both;
   display: table;
 }
-
+.image-card:hover {
+  color: #fd6100;
+  padding: 5px;
+  transition: padding 0.3s;
+}
 .image-card img {
   width: 150px;
   height: 150px;
+}
+
+@media (max-width: 600px) {
+  .ref-text-citations {
+    display: block;
+  }
+  .ref-text-citations > .ref-text-col {
+    margin: 10px;
+  }
 }
